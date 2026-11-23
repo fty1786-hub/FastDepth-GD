@@ -221,3 +221,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Research data, labels, model weights, and generated artifacts
+/data/
+/results/
+*.pth
+*.pth.tar
+*.pt
+*.onnx
+*.rknn
+*.raw
